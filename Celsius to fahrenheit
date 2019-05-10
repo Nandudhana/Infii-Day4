@@ -1,0 +1,10 @@
+def convert_temp_in_cel(f):
+   c=(f-32)*(5/9)
+   return c
+def convert_temp_in_fahrenheit(a):
+    b=(a*(9/5))+32
+    return b
+   
+print(convert_temp_in_cel(90))
+print(convert_temp_in_fahrenheit(32855))  
+   
